@@ -6,6 +6,7 @@ require 'haml'
 require './lib/render_partial'
 
 # Set Sinatra variables
+set :port, 3000
 set :app_file, __FILE__
 set :root, File.dirname(__FILE__)
 set :views, 'views'
